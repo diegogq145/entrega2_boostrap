@@ -1,0 +1,112 @@
+
+main{
+
+    display: flex;
+    color:rgb(0, 122, 255) ;
+
+}
+aside {
+
+    padding-left: 500px;
+ }
+
+h4{
+
+
+    text-align: center;
+    color:rgb(0, 122, 255) ;
+    font-size: 100px;
+    
+    
+    
+    }
+
+
+
+
+
+.texto_1 {
+
+
+    font-weight: bold;
+    text-align: center;
+    
+    
+    }
+    
+    .texto_2 { 
+    
+        font-weight: bold;
+        text-align: center;
+        padding-left: 20px;
+        
+    
+    }
+    
+    
+    .control {
+    
+    
+    
+    width: 387px;
+    
+    
+    
+    }
+
+    @media(max-width:400px){
+
+    
+    main {
+
+        flex-direction: column;
+        
+
+        
+        
+
+
+    }
+    
+    .historia >h4 {
+
+
+
+padding-left: 130px;
+
+    }
+   
+ main > .texto_1{
+
+
+
+width: 500px;
+padding-left: 25px;
+padding-top: 30px;
+
+
+    
+ }
+ 
+ main > .texto_2{
+
+
+padding-left: 25px;
+width: 500px;
+padding-top: 30px;
+
+ }
+  aside {
+
+    padding-left: 95px;
+    padding-top: 30px;
+
+
+    
+   
+
+
+
+  }  
+
+    }

@@ -70,16 +70,24 @@
         height: 700px;
         background-size: cover;
         padding: 100px;
-        h1 {
-    
-            padding-left: 85px;
-            padding-top: 150px;
-            color: white;
-            
         
-        }
         
+       
         
     }
     
+    @media(max-width:400px) {
+
+
+header   {
+
+padding: 0px;
+padding-top: 100px;
+
+
+}
+ 
+
+
+    }
   

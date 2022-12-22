@@ -1,168 +1,292 @@
 .quienes {
-  display: inline-flex; }
+  display: inline-flex;
+}
 
 .parrafo1 {
-  color: #007aff;
+  color: rgb(0, 122, 255);
   width: 100%;
   height: 100%;
   text-align: center;
   font-size: 45px;
-  padding-top: 310px; }
+  padding-top: 150px;
+}
 
 .parrafo2 {
-  background-color: #007aff;
+  background-color: rgb(0, 122, 255);
   width: 100%;
-  height: 840px; }
-  .parrafo2 h3 {
-    padding-top: 200px;
-    font-size: 200px;
-    text-align: center; }
+  height: 757px;
+}
+.parrafo2 h6 {
+  padding-top: 200px;
+  font-size: 200px;
+  text-align: center;
+  color: white;
+}
 
+@media (max-width: 400px) {
+  .quienes {
+    flex-wrap: wrap-reverse;
+  }
+}
 .carrera {
   display: inline-flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+}
 
 .parrafo3 {
   width: 100%;
   height: 100%;
   text-align: center;
-  padding-top: 310px; }
-  .parrafo3 h3 {
-    color: #007aff;
-    font-size: 200px;
-    padding-right: 60px; }
+  padding-top: 310px;
+}
+.parrafo3 h3 {
+  color: rgb(0, 122, 255);
+  font-size: 200px;
+  padding-right: 60px;
+}
+
+.parrafo4 {
+  color: white;
+  background-color: rgb(0, 122, 255);
+  width: 100%;
+  height: 627px;
+  text-align: center;
+  font-size: 45px;
+  padding-top: 130px;
+}
+
+@media (max-width: 400px) {
+  .parrafo3 > h3 {
+    padding-bottom: 100px;
+  }
+  .carrera {
+    flex-wrap: wrap;
+  }
+}
+main {
+  display: flex;
+  color: rgb(0, 122, 255);
+}
+
+aside {
+  padding-left: 500px;
+}
+
+h4 {
+  text-align: center;
+  color: rgb(0, 122, 255);
+  font-size: 100px;
+}
 
 .texto_1 {
   font-weight: bold;
-  text-align: center; }
+  text-align: center;
+}
 
 .texto_2 {
   font-weight: bold;
   text-align: center;
-  padding-left: 20px; }
+  padding-left: 20px;
+}
 
 .control {
-  padding-left: 0px;
-  width: 387px; }
+  width: 387px;
+}
 
-.parrafo4 {
-  color: white;
-  background-color: #007aff;
-  width: 100%;
-  height: 820px;
-  text-align: center;
-  font-size: 45px; }
-
-.parrafo4
-h4 {
-  text-align: center;
-  color: #007aff;
-  font-size: 100px; }
-
-main {
+@media (max-width: 400px) {
+  main {
+    flex-direction: column;
+  }
+  .historia > h4 {
+    padding-left: 130px;
+  }
+  main > .texto_1 {
+    width: 500px;
+    padding-left: 25px;
+    padding-top: 30px;
+  }
+  main > .texto_2 {
+    padding-left: 25px;
+    width: 500px;
+    padding-top: 30px;
+  }
+  aside {
+    padding-left: 95px;
+    padding-top: 30px;
+  }
+}
+.container {
   display: flex;
-  color: #007aff;
-  margin: 60px 60px;
-  padding-left: 100px; }
-
-aside {
-  padding-left: 580px; }
+  color: rgb(0, 122, 255);
+}
 
 .container {
   padding-top: 90px;
-  display: flex; }
+  display: flex;
+}
 
 .control_2 {
   width: 700px;
   height: 520px;
-  animation-name: animacion2;
-  animation-duration: 2s;
-  animation-iteration-count: 2; }
+  -webkit-animation-name: animacion2;
+          animation-name: animacion2;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+}
 
 .contenedor_conecta {
-  padding-left: 10px; }
+  padding-left: 10px;
+}
 
 h5 {
-  color: #007aff;
-  font-size: 100px; }
+  color: rgb(0, 122, 255);
+  font-size: 100px;
+}
 
 .subt {
-  font-size: 50px; }
+  font-size: 50px;
+}
 
 .texto_conecta {
-  color: #007aff; }
+  color: rgb(0, 122, 255);
+}
 
 .twitter_es {
   width: 80px;
-  border: 1px solid #007aff;
+  border: 1px solid rgb(0, 122, 255);
   padding: 10px;
-  animation-name: animacion1;
-  animation-duration: 2s;
-  animation-iteration-count: 6; }
+  -webkit-animation-name: animacion1;
+          animation-name: animacion1;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: 6;
+          animation-iteration-count: 6;
+}
 
 .instagram {
-  border: 1px solid #007aff;
+  border: 1px solid rgb(0, 122, 255);
   width: 80px;
   padding: 10px;
   transition: 1s;
-  animation-name: animacion1;
-  animation-duration: 2s;
-  animation-iteration-count: 6; }
+  -webkit-animation-name: animacion1;
+          animation-name: animacion1;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: 6;
+          animation-iteration-count: 6;
+}
 
 footer {
-  padding-top: 10px; }
+  padding-top: 10px;
+}
+
+@-webkit-keyframes animacion1 {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
 
 @keyframes animacion1 {
   0% {
-    transform: scale(1); }
+    transform: scale(1);
+  }
   50% {
-    transform: scale(1.1); } }
-
+    transform: scale(1.1);
+  }
+}
+@-webkit-keyframes animacion2 {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(0px, 50px);
+  }
+}
 @keyframes animacion2 {
   0% {
-    transform: translate(0px, 0px); }
+    transform: translate(0px, 0px);
+  }
   50% {
-    transform: translate(0px, 50px); } }
-
+    transform: translate(0px, 50px);
+  }
+}
+@media (max-width: 400px) {
+  .container {
+    flex-direction: column;
+  }
+  h5 {
+    font-size: 60px;
+    padding-top: 40px;
+    padding-right: 30px;
+    text-align: center;
+  }
+  .texto_conecta {
+    text-align: center;
+    padding-top: 50px;
+  }
+  .control_2 {
+    width: 300px;
+    height: 200px;
+    padding-left: 50px;
+  }
+}
 .navbar-brand {
-  color: white; }
+  color: white;
+}
 
 .navbar {
-  background-image: url(../img/Landindpage_imagen.jpg); }
+  background-image: url(../img/Landindpage_imagen.jpg);
+}
 
 nav-link {
-  color: white; }
+  color: white;
+}
 
 .text-md-start {
   color: white;
   font-size: 30px;
   padding-left: 80px;
   padding-top: 80px;
-  animation-name: animacion1;
-  animation-duration: 2s;
-  animation-iteration-count: 3; }
+  -webkit-animation-name: animacion1;
+          animation-name: animacion1;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: 3;
+          animation-iteration-count: 3;
+}
 
 .nav-link {
-  color: white; }
+  color: white;
+}
 
 h3 {
   padding-top: 0px;
   padding-left: 85px;
   font-size: 66px;
   font-weight: bold;
-  color: white; }
+  color: white;
+}
 
 header {
   background-image: url(../img/Landindpage_imagen.jpg);
   width: 100%;
   height: 700px;
   background-size: cover;
-  padding: 100px; }
-  header h1 {
-    padding-left: 85px;
-    padding-top: 150px;
-    color: white; }
+  padding: 100px;
+}
 
+@media (max-width: 400px) {
+  header {
+    padding: 0px;
+    padding-top: 100px;
+  }
+}
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}/*# sourceMappingURL=style.css.map */
