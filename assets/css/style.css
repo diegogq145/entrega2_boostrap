@@ -23,7 +23,7 @@
   color: white;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 720px) {
   .quienes {
     flex-wrap: wrap-reverse;
   }
@@ -55,7 +55,7 @@
   padding-top: 130px;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 720px) {
   .parrafo3 > h3 {
     padding-bottom: 100px;
   }
@@ -93,7 +93,7 @@ h4 {
   width: 387px;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 720px) {
   main {
     flex-direction: column;
   }
@@ -215,7 +215,7 @@ footer {
     transform: translate(0px, 50px);
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 7200px) {
   .container {
     flex-direction: column;
   }
