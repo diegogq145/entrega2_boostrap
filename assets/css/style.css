@@ -98,7 +98,7 @@ h4 {
     flex-direction: column;
   }
   .historia > h4 {
-    padding-left: 130px;
+    padding-left: 100px;
   }
   main > .texto_1 {
     width: 500px;
@@ -275,7 +275,7 @@ h3 {
 header {
   background-image: url(../img/Landindpage_imagen.jpg);
   width: 100%;
-  height: 700px;
+  height: 788px;
   background-size: cover;
   padding: 100px;
 }
