@@ -23,7 +23,7 @@
   color: white;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1300px) {
   .quienes {
     flex-wrap: wrap-reverse;
   }
@@ -55,7 +55,7 @@
   padding-top: 130px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1300px) {
   .parrafo3 > h3 {
     padding-bottom: 100px;
   }
@@ -93,7 +93,7 @@ h4 {
   width: 387px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1300px) {
   main {
     flex-direction: column;
   }
@@ -215,7 +215,7 @@ footer {
     transform: translate(0px, 50px);
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 1300px) {
   .container {
     flex-direction: column;
   }
@@ -280,7 +280,7 @@ header {
   padding: 100px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1300px) {
   header {
     padding: 0px;
     padding-top: 100px;
