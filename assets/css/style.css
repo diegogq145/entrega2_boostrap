@@ -324,7 +324,6 @@ header {
 
 .contenedor_footer_index {
   float: left;
-  color: rgb(0, 122, 255);
 }
 
 @media (max-width: 720px) {
