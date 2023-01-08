@@ -1,23 +1,15 @@
 
- .container {
-display: flex;
-color:rgb(0, 122, 255) ;
-
-
-
-
-
- }
 
  
  
-.container {
+.contenedor_contacto {
 
- padding-top: 90px; 
+
     display: flex;
+    color:rgb(0, 122, 255) ;
 
- }
- 
+
+}
  
  .control_2 {
 
@@ -78,7 +70,7 @@ font-size: 100px;
     }
 
 
-footer {
+.redes {
 
 
 padding-top: 10px;
@@ -124,7 +116,7 @@ padding-top: 10px;
 @media(max-width:720px) {
 
 
-.container{
+.contenedor_contacto {
 
     flex-direction: column
 }

@@ -1,5 +1,5 @@
-.quienes {
-  display: inline-flex;
+.contenedor_quienes {
+  display: flex;
 }
 
 .parrafo1 {
@@ -8,13 +8,13 @@
   height: 100%;
   text-align: center;
   font-size: 45px;
-  padding-top: 150px;
+  padding-top: 0px;
 }
 
 .parrafo2 {
   background-color: rgb(0, 122, 255);
   width: 100%;
-  height: 757px;
+  height: 690px;
 }
 .parrafo2 h6 {
   padding-top: 200px;
@@ -27,10 +27,15 @@
   .quienes {
     flex-wrap: wrap-reverse;
   }
+  .contenedor_quienes {
+    flex-wrap: wrap-reverse;
+  }
+  .contenedor_quienes h6 {
+    font-size: 100px;
+  }
 }
-.carrera {
-  display: inline-flex;
-  justify-content: space-between;
+.contenedor_carrera {
+  display: flex;
 }
 
 .parrafo3 {
@@ -57,9 +62,10 @@
 
 @media (max-width: 720px) {
   .parrafo3 > h3 {
-    padding-bottom: 100px;
+    font-size: 100px;
+    color: rgb(0, 122, 255);
   }
-  .carrera {
+  .contenedor_carrera {
     flex-wrap: wrap;
   }
 }
@@ -70,6 +76,7 @@ main {
 
 aside {
   padding-left: 500px;
+  padding-bottom: 50px;
 }
 
 h4 {
@@ -115,14 +122,9 @@ h4 {
     padding-top: 30px;
   }
 }
-.container {
+.contenedor_contacto {
   display: flex;
   color: rgb(0, 122, 255);
-}
-
-.container {
-  padding-top: 90px;
-  display: flex;
 }
 
 .control_2 {
@@ -178,7 +180,7 @@ h5 {
           animation-iteration-count: 6;
 }
 
-footer {
+.redes {
   padding-top: 10px;
 }
 
@@ -216,7 +218,7 @@ footer {
   }
 }
 @media (max-width: 720px) {
-  .container {
+  .contenedor_contacto {
     flex-direction: column;
   }
   h5 {
@@ -235,15 +237,20 @@ footer {
     padding-left: 50px;
   }
 }
-.navbar-brand {
-  color: white;
+.ul_index {
+  list-style: none;
+  display: flex;
+  align-items: flex-end;
+  background-image: url(/assets/img/Landindpage_imagen.jpg);
+  height: 40px;
 }
 
-.navbar {
-  background-image: url(../img/Landindpage_imagen.jpg);
+.ul_index > li {
+  padding-left: 40px;
 }
 
-nav-link {
+.ul_index > li > a {
+  text-decoration: none;
   color: white;
 }
 
@@ -313,6 +320,9 @@ header {
 @media (max-width: 720px) {
   .footer_index {
     padding-left: 0px;
+  }
+  .ul_index {
+    padding-top: 50px;
   }
 }
 * {
