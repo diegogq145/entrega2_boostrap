@@ -238,7 +238,7 @@ h5 {
   }
 }
 .ul_index {
-  background-image: url(./assets/img/Landindpage_imagen.jpg);
+  background-image: url(/assets/img/Landindpage_imagen.jpg);
   list-style: none;
   display: flex;
   align-items: flex-end;
