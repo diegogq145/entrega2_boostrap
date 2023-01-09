@@ -310,7 +310,7 @@ header {
   text-align: center;
   list-style: none;
   justify-content: center;
-  padding-left: 50px;
+  padding-left: 0px;
 }
 
 .contenedor_footer_index {
@@ -319,10 +319,14 @@ header {
 
 @media (max-width: 720px) {
   .footer_index {
-    padding-left: 0px;
+    padding-left: 100px;
   }
   .ul_index {
     padding-top: 50px;
+    padding-right: 100px;
+  }
+  .ul_index > li {
+    padding-left: 35px;
   }
 }
 * {
