@@ -238,7 +238,7 @@ h5 {
   }
 }
 .nav_index {
-  width: 100%;
+  width: 1423px;
 }
 
 .ul_index {
@@ -249,7 +249,7 @@ h5 {
 }
 
 .ul_index > li {
-  padding-left: 100px;
+  padding-left: 90px;
   padding-top: 10px;
 }
 
@@ -277,7 +277,7 @@ h5 {
 
 header {
   background-image: url(../img/Landindpage_imagen.jpg);
-  width: 1094px;
+  width: 1223px;
   height: 701px;
   background-size: cover;
   padding: 100px;
