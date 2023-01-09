@@ -308,7 +308,7 @@ header {
   float: left;
 }
 
-@media (max-width: 374px) {
+@media (max-width: 720px) {
   .footer_index {
     padding-left: 100px;
   }
