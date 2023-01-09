@@ -277,7 +277,7 @@ h5 {
 
 header {
   background-image: url(../img/Landindpage_imagen.jpg);
-  width: 100%;
+  width: 1094px;
   height: 701px;
   background-size: cover;
   padding: 100px;
@@ -315,7 +315,7 @@ header {
 
 @media (max-width: 720px) {
   .footer_index {
-    padding-left: 100px;
+    padding-left: 0px;
   }
   .ul_index {
     width: 483px;
