@@ -248,6 +248,11 @@ h5 {
   height: 40px;
 }
 
+.ul_index > li {
+  padding-left: 100px;
+  padding-top: 10px;
+}
+
 .ul_index > li > a {
   text-decoration: none;
   color: white;
