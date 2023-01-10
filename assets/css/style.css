@@ -284,7 +284,7 @@ header {
 }
 
 .footer_index {
-  padding-left: 500px;
+  padding-left: 550px;
 }
 
 .lista_footer > li {
@@ -315,17 +315,17 @@ header {
 
 @media (max-width: 720px) {
   .footer_index {
-    padding-left: px;
+    padding-left: 300px;
   }
   .ul_index {
-    width: 483px;
+    width: 718px;
     padding-top: 50px;
   }
   .nav_index {
-    margin: 0px;
+    width: 1px;
   }
   header {
-    width: 283px;
+    width: 520px;
   }
   .footer_index {
     padding-right: 200px;
