@@ -277,14 +277,14 @@ h5 {
 
 header {
   background-image: url(../img/Landindpage_imagen.jpg);
-  width: 1223px;
+  width: 1225px;
   height: 701px;
   background-size: cover;
   padding: 100px;
 }
 
 .footer_index {
-  padding-left: 550px;
+  padding-left: 500px;
 }
 
 .lista_footer > li {
@@ -306,7 +306,6 @@ header {
   text-align: center;
   list-style: none;
   justify-content: center;
-  padding-left: 0px;
 }
 
 .contenedor_footer_index {
@@ -323,12 +322,6 @@ header {
   }
   .ul_index > li {
     padding-left: 80px;
-  }
-  .nav_index {
-    width: 1px;
-  }
-  header {
-    width: 520px;
   }
 }
 * {
