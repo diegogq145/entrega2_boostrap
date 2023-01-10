@@ -315,20 +315,20 @@ header {
 
 @media (max-width: 720px) {
   .footer_index {
-    padding-left: 300px;
+    padding-left: 200px;
   }
   .ul_index {
-    width: 718px;
+    width: 720px;
     padding-top: 50px;
+  }
+  .ul_index > li {
+    padding-left: 80px;
   }
   .nav_index {
     width: 1px;
   }
   header {
     width: 520px;
-  }
-  .footer_index {
-    padding-right: 200px;
   }
 }
 * {
