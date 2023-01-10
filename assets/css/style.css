@@ -315,7 +315,7 @@ header {
 
 @media (max-width: 720px) {
   .footer_index {
-    padding-left: 0px;
+    padding-left: px;
   }
   .ul_index {
     width: 483px;
